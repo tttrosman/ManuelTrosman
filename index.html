@@ -98,22 +98,20 @@
     </section>
     
   <!-- Blog section start -->
-  <section class="teams" id="services2">
+  <section class="teams" id="teams">
     <div class="max-width">
         <h2 class="title">Blog</h2>
         <div class="carousel owl-carousel">
-            <div class="serv-content2">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-1.jpeg" alt="">
-                        <div class="text">Stochastic Processes</div>
-                        <p>Brownian Motion</p>
-                    </div>
+            
+            <div class="card">
+                <div class="box">
+                    <a href="https://rpubs.com/Manu_Trosman/1031646"><img src="images/download.png" alt=""></a>
+
+                    <div class="text">Birthday Problem</div>
+                    <p>Statistical Breakdown of the Birthday Problem. Estimation and Simulation using R-Studio</p>
                 </div>
             </div>
-           </div>
-            </div>
-        </div>
+        </div>    
     </div>
    </section>
 
@@ -123,9 +121,11 @@
             <h2 class="title">Technical skills</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">My blog</div>
+                    <div class="text"></div>
                     <p></p>
-                    <a href="#" class="btn" onclick="this.classList.add('explode'); setTimeout(() => { this.classList.remove('explode'); }, 500);">Read more</a>
+                    <div class="btn">
+                        <a href="#"><span>Read More</span></a>
+                    </div>
                     
                 </div>
                 <div class="column right">
@@ -142,6 +142,13 @@
                             <span>60%</span>
                         </div>
                         <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Excel</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line Excel"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
@@ -206,13 +213,7 @@
                         <p>Statistical Breakdown of the Birthday Problem. Estimation and Simulation using R-Studio</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/photo3.png" alt="">
-                        <div class="text">Project Y</div>
-                        <p>Project description/Langague</p>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -258,20 +259,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formspree.io/f/mbjeqybo" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="Subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -279,6 +280,7 @@
                     </form>
                 </div>
             </div>
+            
         </div>
     </section>
 
